@@ -1,42 +1,30 @@
 
 body {
-  background: #F1F5F9;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
-.paraOne {
-  background: yellow;
-  color: red;
-}
-
-p {
-  border: 2px solid black;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-  line-height: 1.5;
+.theme {
+  background: black;
 }
 
 button {
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  background: blue;
+  color: white;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#btnTwo {
+  background: red;
 }
 
 button:active {
   transform: scale(0.90);
   box-shadow: 0 0 0 5px rgba(59, 130, 246, 0.20);
-}
-
-#btnOne {
-  background: blue;
-  padding: 10px;
-  color: white;
-  border-radius: 10px;
-  border: none;
-}
-
-#btnTwo {
-  background: red;
-  padding: 10px;
-  color: white;
-  border-radius: 10px;
-  border: none;
 }
