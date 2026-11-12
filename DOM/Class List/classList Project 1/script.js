@@ -1,14 +1,13 @@
 
-let paraOne = document.querySelector('p');
+let body = document.body;
 
 let btnOne = document.querySelector('#btnOne');
-
-btnOne.addEventListener('click', () => {
-  paraOne.classList.add('paraOne');
-});
-
 let btnTwo = document.querySelector('#btnTwo');
 
+btnOne.addEventListener('click', () => {
+  body.classList.add('theme');
+});
+
 btnTwo.addEventListener('click', () => {
-  paraOne.classList.remove('paraOne');
+  body.classList.remove('theme');
 });
