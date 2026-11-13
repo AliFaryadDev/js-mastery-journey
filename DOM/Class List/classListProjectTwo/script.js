@@ -1,6 +1,6 @@
-let ThemeBtn = document.querySelector('#themeBtn');
+let themeBtn = document.querySelector('#themeBtn');
 let htmlBody = document.body;
 
-ThemeBtn.addEventListener('click', () => {
+themeBtn.addEventListener('click', () => {
   htmlBody.classList.toggle('dark-mode');
 });
