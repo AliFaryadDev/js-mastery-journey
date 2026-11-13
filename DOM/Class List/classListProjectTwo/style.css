@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  miheight: 100vh;
+  height: 100vh;
   background-color: #f4f4f9;
 }
 
