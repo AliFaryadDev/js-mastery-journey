@@ -1,4 +1,4 @@
-let changeThemeBtn = document.querySelector('#themeBtn');
+let ThemeBtn = document.querySelector('#themeBtn');
 let htmlBody = document.body;
 
 ThemeBtn.addEventListener('click', () => {
