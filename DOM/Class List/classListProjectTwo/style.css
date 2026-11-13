@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* Screen ke bilkul center mein lane ke liye */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+  transition: background-color 0.3s ease;
+  font-family: Arial, sans-serif;
+}
+
+/* Dark theme class jo JS se toggle hogi */
+body.dark-mode {
+  background-color: #121212;
+}
+
+/* Button ki styling */
+#theme-btn {
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #4f46e5;
+  border: 2px solid #3730a3;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Button dabane par halka sa effect */
+#theme-btn:active {
+  transform: scale(0.96);
+}
+
+/* Dark mode mein button ka color change */
+body.dark-mode #theme-btn {
+  background-color: #22c55e;
+  border-color: #16a34a;
+  color: #000000;
+}
