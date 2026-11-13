@@ -8,10 +8,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  miheight: 100vh;
   background-color: #f4f4f9;
-  transition: background-color 0.3s ease;
-  font-family: Arial, sans-serif;
 }
 
 /* Dark theme class jo JS se toggle hogi */
