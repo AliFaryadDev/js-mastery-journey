@@ -5,7 +5,6 @@
 }
 
 body {
-  /* Screen ke bilkul center mein lane ke liye */
   display: flex;
   justify-content: center;
   align-items: center;
