@@ -1,4 +1,4 @@
-const changeThemeBtn = document.querySelector('#theme-btn');
+const changeThemeBtn = document.querySelector('#themeBtn');
 const htmlBody = document.body;
 
 changeThemeBtn.addEventListener('click', () => {
