@@ -12,12 +12,8 @@ body {
   background-color: #f4f4f9;
 }
 
-/* Dark theme class jo JS se toggle hogi */
-body.dark-mode {
-  background-color: #121212;
-}
 
-/* Button ki styling */
+/* Button 
 #theme-btn {
   padding: 14px 28px;
   font-size: 16px;
