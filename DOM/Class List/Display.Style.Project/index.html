@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class List | Login OffCanvas Project</title>
+  <link rel="stylesheet" href="StyleLogInCard\style.css">
+  <link rel="stylesheet" href="StyleIntro\style.css">
+</head>
+<body>
+
+  <!---- Log In ----> 
+  <div class="loginCard">
+    <form>
+    <div class = "inputGroup">
+    <input type="email" placeholder="Email">
+    </div>
+
+    <div class = "inputGroup">
+    <input type="password" placeholder="Password">
+    </div>
+    <button>Log In</button>
+    </form>
+  </div>
+  
+  <div id="forgotPassword">
+  <a href="#">Forgot Your Password?</a>
+  </div>
+
+
+  <!-----Sign Up----->
+  <div class="loginCard" id="signup">
+    <form>
+    <div class = "inputGroup">
+    <input type="text" placeholder="Name">
+      <br>
+    <input type="email" placeholder="Email">
+    </div>
+
+    <div class = "inputGroup">
+    <input type="password" placeholder="Password">
+    </div>
+    <button class="buttonClass">Sign Up</button>
+      
+    </form>
+  </div>
+  <button id="signupCloseButton" class="closeButton buttonClass">X</button>
+  
+<!----Intro Section---->
+  <section class="intro">
+  <header>
+    <h1>Welcome Back!</h1>
+  </header>
+  <main>
+    <p>Please choose an option to continue</p>
+    <div class="button">
+      <button class="buttonClass" id="loginTwo">
+        Log In
+      </button><button class="buttonClass" id="signupTwo">
+        Sign Up
+      </button>
+    </div>
+  </main>
+  
+    
+
+    
+  </section>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
