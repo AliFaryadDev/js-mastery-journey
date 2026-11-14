@@ -1,0 +1,39 @@
+.intro{
+  width: 100vw;
+  height: 100vh;
+}
+.intro header{
+  padding: 10px;
+  margin: 170px auto 0 auto;
+}
+.intro Header h1{
+  text-align: center;
+  font-weight: 600;
+}
+.button{
+  display: flex;
+  width: 90%;
+  height: auto;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 10px;
+  margin: auto;
+  gap: 8px;
+  border-radius: 8px;
+}
+.button button{
+  padding: 18px;
+  border-radius: 30px;
+  border: none;
+  background: #000000;
+  color: white;
+}
+main p{
+  padding: 10px;
+  margin: 10px 0;
+}
+#signupTwo{
+  background-color: #ffff;
+  color: black;
+  border: 1.3px solid black;
+}
